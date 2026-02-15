@@ -9,6 +9,10 @@ Un jeu type "Cookie Clicker" sur le thème de la bière, développé en React + 
 ```bash
 # Ouvrir votre navigateur à l'adresse suivante :
 https://beer-clicker-three.vercel.app/
+
+Entrez votre nom d'utilisateur, et cliquez sur Jouer !
+
+
 ```
 
 ---
