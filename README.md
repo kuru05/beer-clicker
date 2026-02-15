@@ -126,11 +126,3 @@ src/
 
 ---
 
-## 📦 Scripts disponibles
-
-| Commande | Description |
-|----------|-------------|
-| `npm run dev` | Lance le serveur de développement Vite |
-| `npm run build` | Build de production |
-| `npm run preview` | Prévisualisation du build |
-| `npm run lint` | Vérification ESLint |
