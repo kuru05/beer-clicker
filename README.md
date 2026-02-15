@@ -1,26 +1,15 @@
 # 🍺 Beer Clicker
 
-Un jeu clicker incrémental sur le thème de la bière, développé en React + Vite.
-
-Cliquez pour brasser des bières, achetez des améliorations, débloquez des succès et grimpez dans le classement !
+Un jeu type "Cookie Clicker" sur le thème de la bière, développé en React + Vite.
 
 ---
 
 ## 🚀 Installation
 
 ```bash
-# Cloner le projet
-git clone <url-du-repo>
-cd cookie-clicker
-
-# Installer les dépendances
-npm install
-
-# Lancer le serveur de développement
-npm run dev
+# Ouvrir votre navigateur à l'adresse suivante :
+https://beer-clicker-three.vercel.app/
 ```
-
-L'application sera accessible sur `http://localhost:5173`.
 
 ---
 
