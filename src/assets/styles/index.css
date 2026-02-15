@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+/* ========== CSS CUSTOM PROPERTIES — THÈME BRASSERIE ========== */
+:root {
+  /* Fond : bois sombre, ambiance pub */
+  --bg-primary: #1a110a;
+  --bg-secondary: #231710;
+  --bg-card: rgba(255, 200, 100, 0.04);
+  --bg-card-hover: rgba(255, 200, 100, 0.08);
+  --bg-glass: rgba(255, 180, 60, 0.06);
+  --border-glass: rgba(210, 150, 60, 0.15);
+  --border-hover: rgba(245, 180, 50, 0.3);
+
+  /* Textes : tons crème et cuivre */
+  --text-primary: #f5e6cc;
+  --text-secondary: #b89a6a;
+  --text-muted: #7a6040;
+
+  /* Accents bière */
+  --accent-amber: #f5a623;
+  --accent-amber-dim: rgba(245, 166, 35, 0.18);
+  --accent-gold: #e8b839;
+  --accent-green: #7cb342;
+  --accent-green-dim: rgba(124, 179, 66, 0.18);
+  --accent-red: #d84315;
+  --accent-red-dim: rgba(216, 67, 21, 0.15);
+  --accent-purple: #c47f17;
+  --accent-purple-dim: rgba(196, 127, 23, 0.18);
+  --accent-blue: #d4a24e;
+
+  /* Coins arrondis (bois sculpté) */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+
+  /* Ombres chaleureuses */
+  --shadow-glow: 0 0 30px rgba(245, 166, 35, 0.15);
+  --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.5);
+
+  --font-family: 'Inter', system-ui, -apple-system, sans-serif;
+
+  font-family: var(--font-family);
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: dark;
+  color: var(--text-primary);
+  background-color: var(--bg-primary);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ========== GLOBAL RESET ========== */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--bg-primary);
+  /* Dégradés chauds rappelant une brasserie éclairée à la bougie */
+  background-image:
+    radial-gradient(ellipse at 15% 30%, rgba(245, 166, 35, 0.07) 0%, transparent 50%),
+    radial-gradient(ellipse at 85% 70%, rgba(200, 120, 20, 0.05) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 100%, rgba(120, 60, 10, 0.08) 0%, transparent 40%);
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Scrollbar style brasserie */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(26, 17, 10, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--text-muted);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary);
+}
+
+/* Selection dorée */
+::selection {
+  background: var(--accent-amber-dim);
+  color: var(--accent-amber);
+}
